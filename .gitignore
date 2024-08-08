@@ -1,0 +1,26 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# If you are using a virtual environment, ignore it
+.venv/
+
+# Ignore Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignore the media and static files if they are generated at runtime
+media/
+static/
+
+# Ignore secret key settings file
+secrets.json
+
+# React/Node
+node_modules/
+npm-debug.log
+build/
+.env
